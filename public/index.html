@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="__alloy_style.css" rel="stylesheet">
+
+    <script>
+        (function(w,t,c,p,s,e){p=new Promise(function(r){w[c]={client:function(){if(!s){
+        s=document.createElement(t);s.src='https://js.cobrowse.io/CobrowseIO.js';s.async=1;
+        e=document.getElementsByTagName(t)[0];e.parentNode.insertBefore(s,e);s.onload=function()
+        {r(w[c]);};}return p;}};});})(window,'script','CobrowseIO');
+    
+        CobrowseIO.license = "9K55PBsAzggC0A";    
+        CobrowseIO.client().then(function(){
+            CobrowseIO.start();
+        });
+    </script>
+
+
+
+
+</head>
+<body >
+<div class="container">
+    <img id="page-logo" src="Epic.png">
+    <p>BlackWeb</p>
+<form class="url" method="POST" action="/session/">
+    <input placeholder="https://www.google.com" name="url" id="iurl" type="text">
+    <button type="submit" id="btn">Go!</button>
+</form>
+</div>
+</div>
+</body>
+</html>
